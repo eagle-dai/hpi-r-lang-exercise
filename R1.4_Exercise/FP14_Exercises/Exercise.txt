@@ -1,0 +1,8 @@
+FP14 Exercises
+======================
+This exercise has some simple tasks to demonstrate how the CodeOcean / Rstudio system works.  
+It is recommended to solve the tasks in Rstudio (not the browser), as the exam would be very hard in the latter.
+
+- `Download` and save the zip folder where you'd like it to be (no need to unzip).  
+- Close this browser tab, otherwise CodeOcean will autosave this _empty(!)_ exercise periodically.  
+- In R/Rstudio, run `codeoceanR::rt_create()`, see lesson 1.4 and [instructions](https://github.com/openHPI/codeoceanR#students).
