@@ -1,6 +1,7 @@
 # T1 ----
 # Subtract 7 from 49. It is enough to simply write the code for it.
 
+49 - 7
 
 # In Rstudio: with the mouse cursor on the solution line, 
 # press CTRL + Enter (or click 'Run' in the upper right corner).
@@ -16,7 +17,7 @@ codeoceanR::rt_score()
 # T2 ----
 # Multiply 21 with 2.
 
-
+21 * 2
 
 # Score again now to have your solution checked.
 # It is worth doing this at least once after each task!!!
