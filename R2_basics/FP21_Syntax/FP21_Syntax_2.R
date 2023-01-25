@@ -3,17 +3,18 @@ codeoceanR::rt_score() # See instructions in lesson 1.4 Exercises
 # T3 ----
 # Create the following objects according to their title.
 # Use code, not a number entered manually.
-three_to_the_power_of_two <- 0
-half_of_pi <- 0
-sixty_factorial <- 0 # 60! = 60*59*58*...*2*1      # see additional material
-e_to_the_power_of_4 <- 0
-base_ten_logarithm_of_200 <- 0 # 10 ^ x = 200
+
+three_to_the_power_of_two <- 3^2
+half_of_pi <- pi / 2
+sixty_factorial <- factorial(60)
+e_to_the_power_of_4 <- exp(4)
+base_ten_logarithm_of_200 <- log10(200)
 
 
 # T4 ----
 # What objects are now in the global environment workspace?
 # Instead of just displaying this, store it in an object.
-list_of_objects <- 0
+list_of_objects <- ls()
 list_of_objects
 
 
@@ -26,12 +27,12 @@ list_of_objects
 # This is a multiple-choice-like question with an association question.
 # Replace the zeros after the terms with the number of the associated explanation below. 
 # Not all explanations belong to one of the listed technical terms.
-object <- 5 # this is the intended structure, replace the 5 with the right number
-argument <- 0
-assignment <- 0
-command <- 0
-workspace <- 0
-operator <- 0
+object <- 7 # this is the intended structure, replace the 5 with the right number
+argument <- 5
+assignment <- 6
+command <- 2
+workspace <- 4
+operator <- 9
 # 1 Working directory (folder) on the PC where R reads / writes files.
 # 2 A function that executes something
 # 3 A self-written function with curly braces
