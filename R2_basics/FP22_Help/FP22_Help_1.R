@@ -7,7 +7,7 @@ codeoceanR::rt_score() # See instructions in lesson 1.4 Exercises
 # 2. type ?functionName
 # 3. press the F1 function key while the cursor (mouse pointer) is on the command
 # 4. use online search engine with the term "R function".
-docuCall <- 0 # replace the 0 with the item number of the right answer.
+docuCall <- 3 # replace the 0 with the item number of the right answer.
 
 # At the latest by now, you want to solve tasks in Rstudio instead of the browser :)
 
@@ -24,14 +24,14 @@ docuCall <- 0 # replace the 0 with the item number of the right answer.
 # T2 ----
 # Call the help for pi. There are other built-in objects documented there.
 # Which one contains the capital letters of the English alphabet?
-builtInAlphabet <- "NameOfObject"
+builtInAlphabet <- "LETTERS"
 # Pro tip: double click on 'NameOfObject' marks whole word, then change :)
 
 
 # T3 ----
 # Some functions have two different names that both do the same thing.
 # What is the alternative to 'rm'? (It's in the documentation)
-alternate_name_for_rm <- "NameOfFunction"
+alternate_name_for_rm <- "remove"
 
 
 # T4 ----
@@ -39,7 +39,7 @@ alternate_name_for_rm <- "NameOfFunction"
 # Pro tip: for many functions, the examples are very helpful!
 # Note for CodeOcean browser users: external clickable view of the help under
 # https://www.rdocumentation.org/packages/base/topics/ls
-exampleObjectName <- "NameOfObject"
+exampleObjectName <- ".Ob"
 
 
 # T5 ----
@@ -47,6 +47,6 @@ exampleObjectName <- "NameOfObject"
 # even if the short form (e.g. ?append) is used, e.g. for 'function':
 ?"function"
 # What is the first cross-reference (See Also) in the doc on arithmetic operators (e.g. +)?
-firstCrossReference <- "nameoffunction"
+firstCrossReference <- "sqrt"
 
 # Now continue in "FP22_Help_2.R"
