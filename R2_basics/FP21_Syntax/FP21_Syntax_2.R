@@ -15,7 +15,6 @@ base_ten_logarithm_of_200 <- log10(200)
 # What objects are now in the global environment workspace?
 # Instead of just displaying this, store it in an object.
 list_of_objects <- ls()
-list_of_objects
 
 
 # Again: score after each task to see if you've solved it correctly.
@@ -33,6 +32,7 @@ assignment <- 6
 command <- 2
 workspace <- 4
 operator <- 9
+
 # 1 Working directory (folder) on the PC where R reads / writes files.
 # 2 A function that executes something
 # 3 A self-written function with curly braces
