@@ -9,8 +9,8 @@ diameter <- c(8.3, 8.6, 8.8, 10.5, 10.7, 10.8, 11, 11, 11.1, 11.2, 11.3, 11.4, 1
 # 'height' and 'diameter' themselves should not be changed.
 # Hint: see slide "Sorting" (Nr 53)
 # Attention: do not use the sorted version to determine the height order.
-height_sorted <- 0
-diameter_sorted <- 0
+height_sorted <- sort(height)
+diameter_sorted <- diameter[order(height)]
 
 
 # Now continue in "FP24_Statistics_3.R"

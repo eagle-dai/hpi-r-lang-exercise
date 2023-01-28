@@ -11,7 +11,7 @@ values <- c(82, 146, 202, 258, 206, 335, 137, 169, 99, 190,
 # *: 30% of values are greater than this value
 # Vector names are not tested in this task, feel free to ignore them.
 # t1_start  # write below this marker
-stats <- 0
+stats <- c(mean(values), sd(values), median(values), min(values), quantile(values, probs=0.70))
 # t1_end
 
 
@@ -21,7 +21,7 @@ stats <- 0
 
 # T2 ----
 # Sort 'values' in descending order.
-values_sorted <- 0
+values_sorted <- sort(values, decreasing = TRUE)
 
 
 # T3 ----
@@ -29,8 +29,8 @@ values_sorted <- 0
 # Pro tip: The replace() function can save code here.
 # 'values' itself may not be changed, of course: 
 # in reality, the original data should normally be preserved.
-v_different_mean <- 0
-v_different_median <- 0
+v_different_mean <- mean(replace(values, 4, 658))
+v_different_median <- median(replace(values, 4, 658))
 
 # B1 ---- 
 # ungraded and unchecked Bonus task:
