@@ -10,7 +10,9 @@ codeoceanR::rt_score()
 # Write a function named "amount_double".
 # For any given input, it should return twice the amount (absolute value) of the input.
 # To remove the comment character, put the cursor in the line, press CTRL + SHIFT + C.
-# amount_double <- 
+amount_double <- function(value) {
+  return(abs(value) * 2)
+}
 # Test your function e.g. with:  (mark both lines, then press CTRL + SHIFT + C)
 # amount_double(-5.5) # should be 11
 # amount_double(7) # should be 14
@@ -24,7 +26,7 @@ codeoceanR::rt_score()
 # 2. getMAD <- function(v) dev <- v-median(v) ; median(abs(dev)) 
 # 3. getMAD <- function(v) {dev <- v-median(v) ; median(abs(dev))} 
 # 4. function(median) abs(deviation(v))
-madFun <- 0 # change zero to the correct number
+madFun <- 3
 
 
 # T3 ----
@@ -32,6 +34,8 @@ madFun <- 0 # change zero to the correct number
 # Using the sampling function, this is possible without if/else.
 # No input argument is needed. Note the capital C in the required function name.
 # Hint: Remember the content from the last lesson (statistics).
-flipCoin <- 0
+flipCoin <- function() {
+  c("heads", "tails")[sample.int(2, 1)]
+}
 
 # Now continue in "FP25_Functions_2.R"

@@ -20,16 +20,21 @@ some_values <- c(82, 146, 202, 258, 206, 335, 137, 169, 99, 190,
 # *: 30% of values are greater than this value
 # Tip: for the body of the function, use the code from lesson 2.4 statistics T1.
 # Tip: read the tips above again ;-)
-stats <- function(x) 0
+stats <- function(values) {
+  stats = c(mean(values), sd(values), median(values), min(values), quantile(values, probs=0.7));
+  return(stats)
+}
 stats(some_values) # should be: 146.575,  71.926,  138.5,  35,  166.9 
-other_values <- 165:178 
+other_values <- 165:178
 stats(other_values) # should be: 171.5,  4.1833,  171.5,  165,  174.1
 
 
 # T5 ----
 # `q3` should return the third quartile of a numerical input vector, without names.
 # The quantile computing function has an argument to suppress the names attribute.
-q3 <- function(values) 0
+q3 <- function(values) {
+  quantile(values, probs=0.75, names=FALSE)
+}
 q3(1:10) # should return 7.75  (75%  of the values 1:10 are smaller than this)
 q3(  rnorm(2000)  )  # should be approximately 0.67 (0.55-0.81)
 
