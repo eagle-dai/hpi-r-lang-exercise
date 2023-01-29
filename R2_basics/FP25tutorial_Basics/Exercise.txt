@@ -1,0 +1,4 @@
+FP25tutorial Basics
+======================
+- `Download` and save the zip folder where you'd like it to be (no need to unzip).  
+- In R/Rstudio, run `codeoceanR::rt_create()`, see lesson 1.4 and [instructions](https://github.com/openHPI/codeoceanR#procedure-for-each-exercise).
