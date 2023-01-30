@@ -11,7 +11,9 @@ codeoceanR::rt_score()
 # Write a function with input arguments A, B, C.
 # It should return the R variant of true/false:
 # True if A and B are true or C is true, false otherwise.
-logicalFunction <- function() 0
+logicalFunction <- function(A, B, C) {
+  A & B | C
+}
 # logicalFunction(FALSE,TRUE,TRUE) # should return TRUE
 
 
@@ -19,7 +21,7 @@ logicalFunction <- function() 0
 # From the built-in vector 'rivers', select all values,
 # that are less than/equal to 350 or greater than 750.
 # Keep the order of occurrence.
-smallLargeRivers <- 0
+smallLargeRivers <- rivers[rivers <= 350 | rivers > 750]
 # Pro tip 1: Built-in datasets are always documented, see ?rivers
 # Pro tip 2: Get datasets listed in the globalEnv panel:
 data("rivers")
@@ -31,7 +33,7 @@ data("rivers")
 # (Required are the positions = locations = index)
 # Hint: there is a reason I chose the first word in this task.
 state.area
-state_index_small <- 0
+state_index_small <- which(state.area < 50000)
 
 
 # T7 ----
@@ -40,7 +42,7 @@ LETTERS # See doc for more built-in objects.
 # Which of the letters are not equal to "K"?
 # Again, a vector of _positions_ is wanted.
 # Use the shortest possible code (19 symbols).
-index_not_equal_K <- 0
+index_not_equal_K <- which(LETTERS != "K")
 
 
 # Now continue in "FP26_Logic_3.R"

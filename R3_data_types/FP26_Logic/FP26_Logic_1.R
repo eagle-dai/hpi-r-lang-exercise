@@ -5,13 +5,13 @@ number <- c(  5, 14, 13,  9,  3,  2, 10, 12, 11,  6,  7,  8,  1,  4, 15)
 group  <- c("b","c","d","c","a","d","b","d","b","b","d","c","a","b","a")
 # Select all numbers that are less than or equal to 9.
 # Keep the order of occurrence.
-smallNumbers <- 0
+smallNumbers <- number[number <= 9]
 
 
 # T2 ----
 # Select all numbers that belong to the group "b".
 # Tip: a useful (slide) search keyword is "filter"...
-numbers_b <- 0
+numbers_b <- number[group == "b"]
 
 
 # T3 ----
@@ -23,12 +23,12 @@ numbers_b <- 0
 # Tip: compare them with each other - individually or in a clever way.
 # Pro tip: hold ALT key + press arrow up/down: moves line
 # t3_start # keep solution below this line
-3
-"b"
-"2"
-"a"
-"B"
 1
+"2"
+3
+"a"
+"b"
+"B"
 # t3_end # keep solution above this line
 
 
